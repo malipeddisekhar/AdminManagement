@@ -1,0 +1,64 @@
+/* src/Css/TimeZone.css */
+
+.timezone-container {
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.heading {
+  font-size: 2.5rem;
+  color: #003366;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.subheading {
+  font-size: 1.6rem;
+  color: #00557f;
+  margin-bottom: 1rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+.btn {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #004a99;
+}
+
+.result {
+  margin-top: 1.2rem;
+  font-size: 1.1rem;
+  color: #003366;
+}

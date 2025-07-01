@@ -1,0 +1,64 @@
+.admin-view-container {
+  padding: 2rem;
+  background: linear-gradient(to right, #f4f6f8, #ffffff);
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+.admin-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #003366;
+  margin-bottom: 2rem;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.student-table th, .student-table td {
+  border: 2px solid #000000; /* Black border */
+  padding: 0.8rem 1rem;
+  text-align: center;
+  color: #333;
+}
+
+.student-table th {
+  background-color: #003366;
+  color: #ffffff;
+}
+
+.student-table tr:nth-child(even) {
+  background-color: #f0f4ff;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pagination button {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #005599;
+}
+
+.pagination span {
+  font-weight: bold;
+  color: #003366;
+}
